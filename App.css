@@ -1,0 +1,64 @@
+/* Styling for the Home page, Lists, and Create List section */
+.App {
+  padding: 20px;
+  text-align: center;
+}
+
+.create-list-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.create-list-btn:hover {
+  background-color: #0056b3;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.create-new-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.create-new-list input, .create-new-list textarea {
+  margin: 5px;
+  padding: 10px;
+  width: 60%;
+}
+
+.create-new-list button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.create-new-list button:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .list-item {
+    width: 100%;
+  }
+}
